@@ -1,6 +1,6 @@
 # To execute this docker-compose yml file use docker-compose -f <file_name> up
 # Add the "-d" flag at the end for deattached execution
-version: '3'
+version: '2.0'
 services:
   firefox:
     image: selenium/node-firefox:3.8.1-erbium
